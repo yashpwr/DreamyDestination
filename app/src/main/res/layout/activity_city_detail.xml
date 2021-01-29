@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/user_profile_photo"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:id="@+id/header"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:background="@color/colorPrimary"
+                android:clickable="true"
+                android:elevation="0dp"
+                android:padding="20dp"
+                android:textColor="@color/white"
+                android:text="Dreamy Destination" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:id="@+id/city_temprature"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#fff"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp"
+                android:paddingTop="30dp"
+                android:text="City Temprature" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:id="@+id/city_hotels"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#fff"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp"
+                android:paddingTop="30dp"
+                android:text="HOTELS"
+                android:gravity="start"/>
+
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:id="@+id/city_know_about_more"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="3dp"
+                android:background="#fff"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp"
+                android:text="Know more about"
+                android:gravity="start"/>
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:id="@+id/City_fun_facts"
+                android:background="#fff"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp"
+                android:text="Fun Facts"
+                android:gravity="start"/>
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:id="@+id/city_hangouts"
+                android:background="#fff"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp"
+                android:text="Hangouts"
+                android:gravity="start"/>
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:id="@+id/city_monumnets"
+                android:background="#fff"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp"
+                android:text="Monuments"
+                android:gravity="start"/>
+
+            <!--<Button-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="5dp"-->
+                <!--android:layout_marginBottom="3dp"-->
+                <!--android:layout_marginTop="3dp"-->
+                <!--android:background="#fff"-->
+                <!--android:id="@+id/btn_add_to_wishlist"-->
+                <!--android:textAlignment="textStart"-->
+                <!--android:clickable="true"-->
+                <!--android:elevation="4dp"-->
+                <!--android:textColor="@color/colorPrimary"-->
+                <!--android:padding="20dp"-->
+                <!--android:text="ADD TO WISHLIST"-->
+                <!--android:gravity="start" />-->
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

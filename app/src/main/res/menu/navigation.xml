@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_studnet_list"
+        android:icon="@drawable/dashboard_001"
+        android:title="Places" />
+
+    <item
+        android:id="@+id/navigation_teacher_faqs"
+        android:icon="@drawable/dashboard_001"
+        android:title="Users" />
+
+    <item
+        android:id="@+id/navigation_add_travel_tips"
+        android:icon="@drawable/dashboard_001"
+        android:title="Travel Tips" />
+
+    <item
+    android:id="@+id/navigation_feedback"
+    android:icon="@drawable/dashboard_001"
+    android:title="Feedbacks" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/dashboard_001"
+        android:title="Feedbacks" />
+
+</menu>

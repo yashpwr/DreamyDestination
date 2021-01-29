@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_lognin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:id="@+id/layoutInput"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_centerHorizontal="true"
+            android:padding="0dp"
+            android:radius="0dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_bus"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:paddingLeft="50dp"
+                android:layout_marginTop="0dp"
+                android:gravity="center_horizontal|center"
+                android:layout_marginRight="05dp"
+                android:layout_weight="1"
+                android:background="@drawable/drawable_circle"
+                android:drawableLeft="@drawable/bus"
+                android:scaleType="fitCenter"
+                android:text="BUS BOOKING"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/btn_cab"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="05dp"
+                android:layout_weight="1"
+                android:paddingLeft="50dp"
+                android:drawableLeft="@drawable/taxi"
+                android:background="@drawable/drawable_circle"
+                android:scaleType="fitCenter"
+                android:text="Cab Booking"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/btn_hotels"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:paddingLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal|center"
+                android:layout_marginRight="05dp"
+                android:layout_weight="1"
+                android:background="@drawable/drawable_circle"
+                android:drawableLeft="@drawable/hotel"
+                android:scaleType="fitCenter"
+                android:text="Hotels"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_food"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:paddingLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal|center"
+                android:layout_marginRight="05dp"
+                android:layout_weight="1"
+                android:background="@drawable/drawable_circle"
+                android:drawableLeft="@drawable/dinner"
+                android:scaleType="fitCenter"
+                android:text="FOOD"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</RelativeLayout>
+

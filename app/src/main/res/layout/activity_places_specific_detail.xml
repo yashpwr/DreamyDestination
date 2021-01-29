@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_lognin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlacesSpecificDetail"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:padding="2dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/select_category"
+        android:layout_marginTop="0dp">
+
+        <LinearLayout
+            android:id="@+id/layoutInput"
+            android:layout_marginRight="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_centerHorizontal="true"
+            android:padding="20dp"
+            android:radius="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:drawablePadding="20dp"
+                android:hint="Place Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/disaster_name"
+                android:textColor="@color/grey_600"
+                android:textColorHint="@color/grey_600"
+                android:padding="15dp"
+                android:inputType="none"
+                android:editable="false"
+                android:layout_margin="10dp" />
+
+
+
+            <Button
+                android:id="@+id/btn_verified"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="0dp"
+                android:background="@color/colorPrimary"
+                android:text="View On Map"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ProgressBar
+                android:id="@+id/pbLoader"
+                style="@style/Base.Widget.AppCompat.ProgressBar"
+                android:theme="@style/AppTheme.ProgressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:indeterminate="true"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageVIew"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="fill_parent"
+        android:layout_margin="10dip"
+        android:layout_height="200dp"/>
+
+    <TextView
+        android:textSize="20sp"
+        android:textColor="@color/grey_600"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/select_category"
+        android:text="Disaster Geofencing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageVIew"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"/>
+
+
+
+</RelativeLayout>
+
